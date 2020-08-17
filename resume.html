@@ -4,7 +4,6 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<title>Curriculum Vitae</title>
-	<meta name="robots" content="noindex, nofollow" />
 	<style type="text/css" media="all">
 		html {
 			background-color: #EEE;
@@ -21,22 +20,13 @@
 			max-width: 50em;
 		}
 
-		#address {
+		.pic-and-contact-container {
 			height: 5em;
 			width: 100em;
 			margin: auto;
-			width: 90%;
-		}
-
-		#address div {
-			margin: auto;
+			width: 85%;
 			padding: 0 .5em 0 1.5em;
 			margin-bottom: 1em;
-		}
-
-		#address h3 {
-			border-bottom: none;
-			margin-top: 0;
 		}
 
 		.date {
@@ -46,13 +36,7 @@
 			text-align: right;
 		}
 
-		abbr,
-		acronym {
-			border-bottom: 1px dotted #333;
-			cursor: help;
-		}
-
-		address {
+		.company {
 			font-style: italic;
 			color: #333;
 			font-size: .9em;
@@ -60,7 +44,7 @@
 
 		.pic-container {
 			float: left;
-			width: 300px;
+			width: 350px;
 		}
 
 		.contact-container {
@@ -126,7 +110,7 @@
 
 <body>
 	<h1>Janne Salonkangas</h1>
-	<div id="address">
+	<div class="pic-and-contact-container">
 		<div class="pic-container">
 			<img src="pic.jpg" height="125" width="125">
 		</div>
@@ -198,7 +182,7 @@
 	<div class="skill-container">
 		<span class="date">2019 - Present</span>
 		<h3>Lead Developer</h3>
-		<address>OP Financial Group</address>
+		<span class="company">OP Financial Group</span>
 		<ul>
 			<li>Developed an application for automatic credit decision and loan price calculation</li>
 			<li>Responsible for design, development, architecture, testing, and deployment</li>
@@ -207,7 +191,7 @@
 
 		<span class="date">2017 - 2018</span>
 		<h3>Software Developer & Scrum Master</h3>
-		<address>Samlink</address>
+		<span class="company">Samlink</span>
 		<ul>
 			<li>Developed an application for archiving documents in retail banking</li>
 			<li>Acting also as a Scrum Master in SAFe organization</li>
